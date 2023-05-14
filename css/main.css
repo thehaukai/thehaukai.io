@@ -12,11 +12,11 @@ body {
     margin: 0px;
     background-image: url('../images/bg-haukai2.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     font-family: Candara;
     overflow-x: hidden;
+    background-size: cover;
 }
 
 textarea {
