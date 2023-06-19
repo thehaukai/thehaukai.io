@@ -105,7 +105,7 @@ function updateVisitorCount(count) {
 
 // Function to fetch the visitor count from the server
 function fetchVisitorCount() {
-  fetch('../php/counter.php')
+  fetch('php/counter.php')
     .then(response => response.text())
     .then(count => updateVisitorCount(count))
     .catch(error => console.error('Error:', error));
@@ -113,7 +113,7 @@ function fetchVisitorCount() {
 
 // Function to increment the visitor count on the server
 function incrementVisitorCount() {
-  fetch('../php/counter.php?action=increment')
+  fetch('php/counter.php?action=increment')
     .then(response => response.text())
     .then(count => updateVisitorCount(count))
     .catch(error => console.error('Error:', error));
