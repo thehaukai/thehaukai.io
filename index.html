@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/main.css" type="text/css" rel="stylesheet">
+<script src="js/main.js"></script>
+<title>Home - The Haukai</title>
+<body>
+    <!-- LANGUAGE DROPDOWN -->
+    <div class="dropdown">
+        <span></span>
+        <img class="flag-size" src="images/us_lang.png" alt="English" onclick="toggleDropdown()">
+        <div id="dropdown-content">
+          <a href="#"><img class="flag-size" src="images/es_lang.png" alt="Español"></a>
+          <a href="#"><img class="flag-size" src="images/jp_lang.png" alt="Japanese"></a>
+          <a href="#"><img class="flag-size" src="images/kr_lang.png" alt="Korean"></a>
+          <a href="#"><img class="flag-size" src="images/ch_lang.png" alt="Chinese"></a>
+        </div>
+    </div>
+
+    <!-- MAIN MENU -->
+    <div class="w-100 header">
+        <div style="padding: 10px;">
+            <a href="index.html" class="header-btn">Home</a>
+            <a href="menu.html"  class="header-btn">Menu</a>
+            <a href="reservation.html" class="header-btn">Reservation</a>
+            <a href="hours.html" class="header-btn">Operating Hours</a>
+            <a href="contactus.html" class="header-btn">Contact Us</a>
+            <a href="private/staff.html" class="header-btn" style="margin-right: 15px;">Staff Access</a>
+        </div>       
+    </div>
+  	
+    <!-- HOME BODY -->
+    <div class="w-100-a" style="display: block;max-width: 800px;margin-right: auto;margin-left: auto;text-align: center;margin-bottom: 15px;margin-top: 65px;">
+        <div style="font-size: 300px;">The Haukai</div>
+    </div>
+
+       <div class="w-100" style="display: flex;flex-wrap: wrap;max-width: 1600px; margin-right: auto;margin-left: auto;">
+            <div id="banner-text">
+            <span><b class="body-style">W</b>elcome</span>
+            <span>to <b class="body-style">The Haukai</b>, where we offer a taste of exotic local cuisine that will transport you to the lush landscapes of the Pacific Islands. Our menu is bursting with fresh ingredients and bold flavors that are sure to tantalize your taste buds. From tender seafood dishes to hearty meat options and vegetarian delights, we have something for everyone. Indulge in our succulent octopus ceviche or savor our juicy lamb shank in rich coconut cream. Our dishes are prepared with passion and served with warmth, creating an atmosphere that is truly unforgettable. And to accompany your meal, we offer an extensive wine and cocktail list, featuring both local and international favorites. So come and experience the magic of Haukai, where the food, the people, and the ambiance will leave you feeling invigorated and inspired. We can't wait to welcome you!</span>
+            <br>
+            <br>
+        </div>       
+    </div>
+
+    <!-- HOME GALLERY -->
+    <div style="text-align: center;">
+        <img class="haukai-resto" src="images/haukai-resto.jpeg" alt="The Haukai Place">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Testimonials -->
+    <div id="gallery" class="w-100 gallery-div">
+        <b class="testi-style">T</b>estimonials
+    </div>
+    <div class="div-flex w-100">
+  
+        <div>
+            <img class="tesi-img1" src="images/testi1.png" alt="Testimonial1">
+        </div>
+
+        <div>
+            <img class="tesi-img2" src="images/testi2.png" alt="Testimonial2">
+        </div>
+
+
+    </div>
+    <!-- COUNTER 1 -->
+    <h1>This site has been visited <span id="visitorCount"></span> times.</h1>
+
+    <!-- FOOTER -->
+    <div class="w-100 footer">
+        The Haukai Copyright 2023
+    </div>
+</body>
+</html>

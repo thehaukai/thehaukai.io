@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/main.css" type="text/css" rel="stylesheet">
+<script src="js/main.js"></script>
+    <title>Contact Us - The Haukai</title>
+<body>
+    <!-- LANGUAGE DROPDOWN -->
+    <div class="dropdown">
+        <span></span>
+        <img class="flag-size" src="images/us_lang.png" alt="English" onclick="toggleDropdown()">
+        <div id="dropdown-content">
+          <a href="#"><img class="flag-size" src="images/es_lang.png" alt="Español"></a>
+          <a href="#"><img class="flag-size" src="images/jp_lang.png" alt="Japanese"></a>
+          <a href="#"><img class="flag-size" src="images/kr_lang.png" alt="Korean"></a>
+          <a href="#"><img class="flag-size" src="images/ch_lang.png" alt="Chinese"></a>
+        </div>
+    </div>
+
+    <!-- MAIN MENU -->
+    <div class="w-100 header">
+        <div style="padding: 10px;">
+            <a href="index.html" class="header-btn">Home</a>
+            <a href="menu.html"  class="header-btn">Menu</a>
+            <a href="reservation.html" class="header-btn">Reservation</a>
+            <a href="hours.html" class="header-btn">Operating Hours</a>
+            <a href="contactus.html" class="header-btn">Contact Us</a>
+            <a href="private/staff.html" class="header-btn" style="margin-right: 15px;">Staff Access</a>
+        </div>       
+    </div>
+
+    <!-- MAIN HEADER -->
+    <div class="w-100" style="display: block;max-width: 800px;margin-right: auto;margin-left: auto;text-align: center;margin-bottom: 15px;margin-top: 65px;">
+        
+        <div id="contact-us" class="w-100" style="display: block;max-width: 800px;margin-right: auto;margin-left: auto;margin-top: 20px;">
+            <div style="text-align: center;font-size: 30px;margin-bottom: 10px;"><b class="testi-style">Contact Us</b></div>
+    
+            <div class="div-flex w-100">
+                
+                <!-- ADDRESS WITH GOOGLE MAP SECTION -->
+                <div class="div-flex-item fs-20">
+                    <span>3 1 Island Street</span><br>
+                    <span>Kerikeri</span><br>
+                    <span>New Zealand</span><br>
+                    <span>09 401 4019</span><br>
+                    <span>thehaukai@gmail.com</span><br>
+                    <br>
+                    <div style="max-width: 95%;margin-right: auto;margin-left: auto;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6518.190448829735!2d173.9402416935791!3d-35.22899949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0bb76f05800a6d%3A0x912328fde4819391!2sHaukai%20Restaurant!5e0!3m2!1sen!2sph!4v1683829211449!5m2!1sen!2sph" style="border:0;width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+    
+                </div>
+                
+                <!-- SEND MESSAGE SECTION -->
+                <div class="div-flex-item">
+                    <div id="contact-us-form" class="mt-1 mb-1">
+                        <div class="mt-1 mb-1" style="text-align: center;padding: 10px;"><b>Please fill this form in a decent manner</b></div>
+                        <div class="mt-1">
+                            <div><b>Full Name</b><b class="c-red">*</b></div>
+                            <div style="padding: 10px;text-align: center;">
+                                <input id="cu-name" type="text" class="input-custom" placeholder="John Smith">
+                                <small id="cu-name-r" class="c-red">This field is required</small>
+                            </div>
+    
+                            <div><b>Email</b><b class="c-red">*</b></div>
+                            <div style="padding: 10px;text-align: center;">
+                                <input id="cu-email" type="text" class="input-custom" placeholder="ex. email@gmail.com">
+                                <small id="cu-email-r" class="c-red">This field is required</small>
+                            </div>
+    
+                            <div><b>Message</b><b class="c-red">*</b></div>
+                            <div style="padding: 10px;text-align: center;">
+                                <textarea id="cu-message" class="input-custom" rows="4" placeholder="Your Message"></textarea>
+                                <small id="cu-message-r" class="c-red">This field is required</small>
+                            </div>
+    
+                            <div class="mt-1">
+                                <button class="submit-btn" onclick="check_required_inputs()"><b>SUBMIT</b></button>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+            
+            <!-- SOCIAL MEDIA LINKS -->
+            <div id="sm-icon">
+                <a href="https://www.facebook.com/" target="_blank" style="margin-left: 5px;margin-right: 5px;"><img alt="FB" src="images/fb-icon-black.png" width="40"></a>
+                <a href="https://www.instagram.com/" target="_blank" style="margin-left: 5px;margin-right: 5px;"><img alt="IG" src="images/insta-icon-black.png" width="40"></a>
+                <a href="https://www.twitter.com/" target="_blank" style="margin-left: 5px;margin-right: 5px;"><img alt="TW" src="images/twitter-icon-black.png" width="40"></a>
+                <a href="https://www.linkedin.com/" target="_blank" style="margin-left: 5px;margin-right: 5px;"><img alt="LI" src="images/li-icon-black.png" width="40"></a>
+            </div>
+        
+        </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="w-100 footer">
+        The Haukai Copyright 2023
+    </div>
+</body>
+</html>
